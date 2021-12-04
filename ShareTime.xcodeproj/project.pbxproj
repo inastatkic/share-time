@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91CD1E3275BEF0C00EC2793 /* ShareTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A91CD1E8275BEF1000EC2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1E7275BEF1000EC2793 /* Assets.xcassets */; };
+		A91CD1EE275BEF1000EC2793 /* ShareTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A91CD1ED275BEF1000EC2793 /* ShareTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A91CD1F3275BEF1000EC2793 /* ShareTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1F2275BEF1000EC2793 /* ShareTimeApp.swift */; };
+		A91CD1F5275BEF1000EC2793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1F4275BEF1000EC2793 /* ContentView.swift */; };
+		A91CD1F7275BEF1000EC2793 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1F6275BEF1000EC2793 /* NotificationController.swift */; };
+		A91CD1F9275BEF1000EC2793 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1F8275BEF1000EC2793 /* NotificationView.swift */; };
+		A91CD1FB275BEF1000EC2793 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */; };
+		A91CD1FD275BEF1200EC2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1FC275BEF1200EC2793 /* Assets.xcassets */; };
+		A91CD200275BEF1200EC2793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91CD1E4275BEF0C00EC2793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91CD1D8275BEF0900EC2793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91CD1E1275BEF0C00EC2793;
+			remoteInfo = "ShareTime WatchKit App";
+		};
+		A91CD1EF275BEF1000EC2793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91CD1D8275BEF0900EC2793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91CD1EC275BEF1000EC2793;
+			remoteInfo = "ShareTime WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A91CD208275BEF1200EC2793 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A91CD1EE275BEF1000EC2793 /* ShareTime WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91CD20C275BEF1200EC2793 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A91CD1E3275BEF0C00EC2793 /* ShareTime WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A91CD1DE275BEF0900EC2793 /* ShareTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91CD1E7275BEF1000EC2793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91CD1ED275BEF1000EC2793 /* ShareTime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShareTime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91CD1F2275BEF1000EC2793 /* ShareTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTimeApp.swift; sourceTree = "<group>"; };
+		A91CD1F4275BEF1000EC2793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A91CD1F6275BEF1000EC2793 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A91CD1F8275BEF1000EC2793 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A91CD1FC275BEF1200EC2793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A91CD201275BEF1200EC2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91CD202275BEF1200EC2793 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91CD1EA275BEF1000EC2793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91CD1D7275BEF0900EC2793 = {
+			isa = PBXGroup;
+			children = (
+				A91CD1E6275BEF0C00EC2793 /* ShareTime WatchKit App */,
+				A91CD1F1275BEF1000EC2793 /* ShareTime WatchKit Extension */,
+				A91CD1DF275BEF0900EC2793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91CD1DF275BEF0900EC2793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD1DE275BEF0900EC2793 /* ShareTime.app */,
+				A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */,
+				A91CD1ED275BEF1000EC2793 /* ShareTime WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91CD1E6275BEF0C00EC2793 /* ShareTime WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD1E7275BEF1000EC2793 /* Assets.xcassets */,
+			);
+			path = "ShareTime WatchKit App";
+			sourceTree = "<group>";
+		};
+		A91CD1F1275BEF1000EC2793 /* ShareTime WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD1F2275BEF1000EC2793 /* ShareTimeApp.swift */,
+				A91CD1F4275BEF1000EC2793 /* ContentView.swift */,
+				A91CD1F6275BEF1000EC2793 /* NotificationController.swift */,
+				A91CD1F8275BEF1000EC2793 /* NotificationView.swift */,
+				A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */,
+				A91CD1FC275BEF1200EC2793 /* Assets.xcassets */,
+				A91CD201275BEF1200EC2793 /* Info.plist */,
+				A91CD202275BEF1200EC2793 /* PushNotificationPayload.apns */,
+				A91CD1FE275BEF1200EC2793 /* Preview Content */,
+			);
+			path = "ShareTime WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A91CD1FE275BEF1200EC2793 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91CD1DD275BEF0900EC2793 /* ShareTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91CD20D275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime" */;
+			buildPhases = (
+				A91CD1DC275BEF0900EC2793 /* Resources */,
+				A91CD20C275BEF1200EC2793 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91CD1E5275BEF0C00EC2793 /* PBXTargetDependency */,
+			);
+			name = ShareTime;
+			productName = ShareTime;
+			productReference = A91CD1DE275BEF0900EC2793 /* ShareTime.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A91CD1E1275BEF0C00EC2793 /* ShareTime WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91CD209275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime WatchKit App" */;
+			buildPhases = (
+				A91CD1E0275BEF0C00EC2793 /* Resources */,
+				A91CD208275BEF1200EC2793 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91CD1F0275BEF1000EC2793 /* PBXTargetDependency */,
+			);
+			name = "ShareTime WatchKit App";
+			productName = "ShareTime WatchKit App";
+			productReference = A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A91CD1EC275BEF1000EC2793 /* ShareTime WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91CD205275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime WatchKit Extension" */;
+			buildPhases = (
+				A91CD1E9275BEF1000EC2793 /* Sources */,
+				A91CD1EA275BEF1000EC2793 /* Frameworks */,
+				A91CD1EB275BEF1000EC2793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShareTime WatchKit Extension";
+			productName = "ShareTime WatchKit Extension";
+			productReference = A91CD1ED275BEF1000EC2793 /* ShareTime WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91CD1D8275BEF0900EC2793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A91CD1DD275BEF0900EC2793 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A91CD1E1275BEF0C00EC2793 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A91CD1EC275BEF1000EC2793 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A91CD1DB275BEF0900EC2793 /* Build configuration list for PBXProject "ShareTime" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91CD1D7275BEF0900EC2793;
+			productRefGroup = A91CD1DF275BEF0900EC2793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91CD1DD275BEF0900EC2793 /* ShareTime */,
+				A91CD1E1275BEF0C00EC2793 /* ShareTime WatchKit App */,
+				A91CD1EC275BEF1000EC2793 /* ShareTime WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91CD1DC275BEF0900EC2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91CD1E0275BEF0C00EC2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91CD1E8275BEF1000EC2793 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91CD1EB275BEF1000EC2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91CD200275BEF1200EC2793 /* Preview Assets.xcassets in Resources */,
+				A91CD1FD275BEF1200EC2793 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91CD1E9275BEF1000EC2793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91CD1F7275BEF1000EC2793 /* NotificationController.swift in Sources */,
+				A91CD1F5275BEF1000EC2793 /* ContentView.swift in Sources */,
+				A91CD1FB275BEF1000EC2793 /* ComplicationController.swift in Sources */,
+				A91CD1F3275BEF1000EC2793 /* ShareTimeApp.swift in Sources */,
+				A91CD1F9275BEF1000EC2793 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91CD1E5275BEF0C00EC2793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91CD1E1275BEF0C00EC2793 /* ShareTime WatchKit App */;
+			targetProxy = A91CD1E4275BEF0C00EC2793 /* PBXContainerItemProxy */;
+		};
+		A91CD1F0275BEF1000EC2793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91CD1EC275BEF1000EC2793 /* ShareTime WatchKit Extension */;
+			targetProxy = A91CD1EF275BEF1000EC2793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A91CD203275BEF1200EC2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A91CD204275BEF1200EC2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91CD206275BEF1200EC2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShareTime WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShareTime WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShareTime WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A91CD207275BEF1200EC2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShareTime WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShareTime WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShareTime WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A91CD20A275BEF1200EC2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ShareTime_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ShareTime WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A91CD20B275BEF1200EC2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ShareTime_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ShareTime WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A91CD20E275BEF1200EC2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A91CD20F275BEF1200EC2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2UNH9XNGLP;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.human.ShareTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91CD1DB275BEF0900EC2793 /* Build configuration list for PBXProject "ShareTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91CD203275BEF1200EC2793 /* Debug */,
+				A91CD204275BEF1200EC2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91CD205275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91CD206275BEF1200EC2793 /* Debug */,
+				A91CD207275BEF1200EC2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91CD209275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91CD20A275BEF1200EC2793 /* Debug */,
+				A91CD20B275BEF1200EC2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91CD20D275BEF1200EC2793 /* Build configuration list for PBXNativeTarget "ShareTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91CD20E275BEF1200EC2793 /* Debug */,
+				A91CD20F275BEF1200EC2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91CD1D8275BEF0900EC2793 /* Project object */;
+}
