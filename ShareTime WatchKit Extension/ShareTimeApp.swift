@@ -9,6 +9,7 @@ struct ShareTimeApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(ActionManager())
             }
         }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D009229276515A8004F0C29 /* NewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D009228276515A8004F0C29 /* NewAction.swift */; };
+		4D00922B27651AF1004F0C29 /* ActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00922A27651AF1004F0C29 /* ActionManager.swift */; };
 		A91CD1E3275BEF0C00EC2793 /* ShareTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A91CD1E8275BEF1000EC2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1E7275BEF1000EC2793 /* Assets.xcassets */; };
 		A91CD1EE275BEF1000EC2793 /* ShareTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A91CD1ED275BEF1000EC2793 /* ShareTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -17,6 +19,8 @@
 		A91CD1FB275BEF1000EC2793 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */; };
 		A91CD1FD275BEF1200EC2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1FC275BEF1200EC2793 /* Assets.xcassets */; };
 		A91CD200275BEF1200EC2793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */; };
+		A91CD214275BFEF700EC2793 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD213275BFEF700EC2793 /* Action.swift */; };
+		A91CD21B275D2DE500EC2793 /* InputButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD21A275D2DE500EC2793 /* InputButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D009228276515A8004F0C29 /* NewAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAction.swift; sourceTree = "<group>"; };
+		4D00922A27651AF1004F0C29 /* ActionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionManager.swift; sourceTree = "<group>"; };
 		A91CD1DE275BEF0900EC2793 /* ShareTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91CD1E2275BEF0C00EC2793 /* ShareTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShareTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91CD1E7275BEF1000EC2793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +81,8 @@
 		A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A91CD201275BEF1200EC2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A91CD202275BEF1200EC2793 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A91CD213275BFEF700EC2793 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		A91CD21A275D2DE500EC2793 /* InputButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0092272765153D004F0C29 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D009228276515A8004F0C29 /* NewAction.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A91CD1D7275BEF0900EC2793 = {
 			isa = PBXGroup;
 			children = (
@@ -118,11 +134,11 @@
 		A91CD1F1275BEF1000EC2793 /* ShareTime WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A91CD210275BFE8300EC2793 /* Model */,
 				A91CD1F2275BEF1000EC2793 /* ShareTimeApp.swift */,
-				A91CD1F4275BEF1000EC2793 /* ContentView.swift */,
-				A91CD1F6275BEF1000EC2793 /* NotificationController.swift */,
-				A91CD1F8275BEF1000EC2793 /* NotificationView.swift */,
-				A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */,
+				A91CD219275D2D6B00EC2793 /* Modifiers */,
+				A91CD215275D179D00EC2793 /* Views */,
+				A91CD216275D17B600EC2793 /* Controllers */,
 				A91CD1FC275BEF1200EC2793 /* Assets.xcassets */,
 				A91CD201275BEF1200EC2793 /* Info.plist */,
 				A91CD202275BEF1200EC2793 /* PushNotificationPayload.apns */,
@@ -137,6 +153,42 @@
 				A91CD1FF275BEF1200EC2793 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A91CD210275BFE8300EC2793 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD213275BFEF700EC2793 /* Action.swift */,
+				4D00922A27651AF1004F0C29 /* ActionManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A91CD215275D179D00EC2793 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D0092272765153D004F0C29 /* Components */,
+				A91CD1F8275BEF1000EC2793 /* NotificationView.swift */,
+				A91CD1F4275BEF1000EC2793 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A91CD216275D17B600EC2793 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD1F6275BEF1000EC2793 /* NotificationController.swift */,
+				A91CD1FA275BEF1000EC2793 /* ComplicationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A91CD219275D2D6B00EC2793 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A91CD21A275D2DE500EC2793 /* InputButton.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +254,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = Ina;
 				TargetAttributes = {
 					A91CD1DD275BEF0900EC2793 = {
 						CreatedOnToolsVersion = 13.1;
@@ -267,10 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91CD1F7275BEF1000EC2793 /* NotificationController.swift in Sources */,
+				A91CD214275BFEF700EC2793 /* Action.swift in Sources */,
+				4D009229276515A8004F0C29 /* NewAction.swift in Sources */,
 				A91CD1F5275BEF1000EC2793 /* ContentView.swift in Sources */,
 				A91CD1FB275BEF1000EC2793 /* ComplicationController.swift in Sources */,
 				A91CD1F3275BEF1000EC2793 /* ShareTimeApp.swift in Sources */,
 				A91CD1F9275BEF1000EC2793 /* NotificationView.swift in Sources */,
+				A91CD21B275D2DE500EC2793 /* InputButton.swift in Sources */,
+				4D00922B27651AF1004F0C29 /* ActionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
